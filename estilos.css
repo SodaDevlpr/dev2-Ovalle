@@ -1,0 +1,388 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 90px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+.logo1{
+    float: left;
+    width: 180px;
+    height: 80px;
+    padding-bottom: 20px;
+}
+
+.barra{
+    float: right;
+}
+
+.barra li{
+    list-style: none;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.barra li:hover::after{
+    width: 100%;
+    border: solid 0.5px;
+    color: aqua;
+}
+
+.barra li::after{
+    content: "";
+    width: 0px;
+    transition: 0.4s;
+    display: block;
+}
+
+.barra a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.barra a:hover{
+    color: rgb(46, 79, 107);
+}
+
+.opening{
+    height: 65vh;
+    width: 100%;
+    background-image: url(Imagenes/Estudio.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.opening1{
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    color: #000000;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.redes{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.redes i{
+    color: #000000;
+    letter-spacing: 30px;
+}
+
+.redes i:hover{
+    color: rgb(46, 79, 107);
+}
+
+.Img{
+    padding-top: 20px;
+    padding-bottom: 50px; 
+    text-align: center;
+}
+
+.img1{
+    float: left;
+    width: 400px;
+    height: 350px;
+    border: 2px solid;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.img1:hover{
+    box-shadow: 5px 5px 10px;
+}
+
+.img2{
+    float: left;
+    width:400px ;
+    height: 350px;
+    border: 2px solid;
+    margin-left: 42px;
+    border-radius: 10px;
+}
+
+.img2:hover{
+    box-shadow: 5px 5px 10px;
+}
+
+.img3{
+    float: left;
+    width:400px ;
+    height: 350px;
+    border: 2px solid;
+    margin-left: 41px;
+    border-radius: 10px;
+}
+
+.img3:hover{
+    box-shadow: 5px 5px 10px;
+}
+.videos{
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.barravid li{
+    list-style: none;
+    text-transform: capitalize;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.li1{
+    float: left;
+    padding-left: 170px;
+}
+
+.li2{
+    position: relative;
+    
+}
+
+.li3{
+    float: right;
+    padding-right: 210px;
+}
+
+.Videos1{
+    padding-top: 350px;
+}
+
+.vid1{
+    float: left;
+    width: 400px;
+    height: 350px;
+    padding-top: 20px;
+}
+
+.vid2{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    padding-top: 20px;
+}
+
+.vid3{float: right;
+    width:400px ;
+    height: 350px;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.linea{
+    border-top: 2px solid black;
+    height: 5px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+
+main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+
+.preguntas1{
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.q1{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+body .contacto{
+    height: 100%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+}
+
+input{
+    background-color: #fffbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: hsl(170, 82%, 60%); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+
+textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: hsl(170, 82%, 60%); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+
+label{
+    display: block; 
+    float: center;
+}
+
+
+button{
+    height: 45px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ffffff; 
+    border-color: #000000; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 407px;   
+    cursor: pointer;
+    
+}
+
+button p{
+    color: #000000; 
+    border-radius: 10px;
+}
+
+button :hover{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    padding: 13px;
+    transition: 0.3s;
+    color: white;
+}
+
+span{
+    color: #000000; 
+}
+
+.aviso{
+    font-size: 13px;  
+    color: #a70f0f;  
+}
+
+.formulario1{
+    text-align: left; 
+    padding-bottom: 20px; 
+    color: #000000;
+    margin-top: -110px;
+    margin-left: 50px;
+    padding: 20px;
+    font-size: none;
+}
+
+.formulario3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+}
+
+p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+}
+
+::-webkit-input-placeholder{
+    color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder{
+color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+    outline:0;
+    border: 1px solid #000000;
+}
+
+
+.formulario textarea:focus{
+    outline:0;
+    border: 1px solid #000000;
+}
+
+.nos{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contenedor{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1320px;
+    height: 300px;
+    padding-top: 20px;
+}
+
+.cont1{
+    float: left;
+    width:600px ;
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.cont2{
+    float:left;
+    width:600px;
+    height: 150px;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+.cont3{
+    float: left;
+    width: 600px;
+    padding-left: 20px;
+}
+
+.nos1{
+    padding-bottom: 10px;
+}
+
+.nos2{
+    padding-bottom: 10px;
+}
+
+.nos3{
+    padding-bottom: 10px;
+}
