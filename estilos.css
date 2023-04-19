@@ -13,65 +13,19 @@ header{
     padding: 20px;
 }
 
-.logo1{
-    float: left;
-    width: 180px;
-    height: 80px;
-    padding-bottom: 20px;
-}
-
-.barra{
-    float: right;
-}
-
-.barra li{
-    list-style: none;
-    text-transform: capitalize;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.barra li:hover::after{
-    width: 100%;
-    border: solid 0.5px;
-    color: aqua;
-}
-
-.barra li::after{
-    content: "";
-    width: 0px;
-    transition: 0.4s;
-    display: block;
-}
-
-.barra a{
-    text-decoration: none;
-    color: #000000;
-}
-
-.barra a:hover{
-    color: rgb(46, 79, 107);
-}
-
-.opening{
-    height: 65vh;
-    width: 100%;
+.jumbotron{
     background-image: url(Imagenes/estudio.jpeg);
-    background-size: cover;
     background-position: center;
-    
+    background-size: cover;
+    height: 450px;
+    margin-top: 25px;
 }
 
-.opening1{
-    font-size: 27px;
+.jumbotron1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
     color: #000000;
-    position: fixed;
-    top: 50%;
-    left: 45%;
-    margin-top: -100px;
-    margin-left: -100px;
+    text-align: center;
+    font-size: 60px;
 }
 
 .redes{
@@ -90,102 +44,25 @@ header{
     color: rgb(46, 79, 107);
 }
 
-.Img{
-    padding-top: 20px;
-    padding-bottom: 50px; 
-    text-align: center;
+.carousel1 img{
+    width: 100%;
+    height: 400px;
+    max-height: 500px;
+    object-fit: cover;
 }
 
-.img1{
-    float: left;
-    width: 400px;
-    height: 350px;
-    border: 2px solid;
-    margin-left: 20px;
-    border-radius: 10px;
-}
-
-.img1:hover{
-    box-shadow: 5px 5px 10px;
-}
-
-.img2{
-    float: left;
-    width:400px ;
-    height: 350px;
-    border: 2px solid;
-    margin-left: 42px;
-    border-radius: 10px;
-}
-
-.img2:hover{
-    box-shadow: 5px 5px 10px;
-}
-
-.img3{
-    float: left;
-    width:400px ;
-    height: 350px;
-    border: 2px solid;
-    margin-left: 41px;
-    border-radius: 10px;
-}
-
-.img3:hover{
-    box-shadow: 5px 5px 10px;
-}
 .videos{
     padding-top: 20px;
-    padding-left: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
-.barravid li{
-    list-style: none;
-    text-transform: capitalize;
-    display: inline-block;
-    margin-top: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.videos1 h6{
+    text-align: center;
 }
 
-.li1{
-    float: left;
-    padding-left: 170px;
-}
-
-.li2{
-    position: relative;
-    
-}
-
-.li3{
-    float: right;
-    padding-right: 210px;
-}
-
-.Videos1{
-    padding-top: 350px;
-}
-
-.vid1{
-    float: left;
-    width: 400px;
-    height: 350px;
-    padding-top: 20px;
-}
-
-.vid2{
-    position: relative;
-    width: 400px;
-    height: 350px;
-    padding-top: 20px;
-}
-
-.vid3{float: right;
-    width:400px ;
-    height: 350px;
-    margin-right: 20px;
-    padding-top: 20px;
+.videos1 iframe{
+    padding: 20px;   
 }
 
 .linea{
