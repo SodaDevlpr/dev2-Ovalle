@@ -55,6 +55,7 @@ header{
     height: 400px;
     max-height: 500px;
     object-fit: cover;
+    padding-right: 20px;
 }
 
 .carousel1 ul li{
@@ -127,6 +128,7 @@ input{
     border-style: solid; 
     border-width: 1px; 
     border-color: hsl(170, 82%, 60%);
+    margin-right: 20px;
 }
 
 textarea{
@@ -245,4 +247,31 @@ color: #a8a8a8;
 
 .nos{
     padding-top: 20px;
+}
+
+.alinear{
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.pre{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.galerias{
+    padding-left: 20px;
+}
+
+html, body{
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.embed-responsive-item{
+    padding-right: 20px !important;
+}
+
+.container-fluid{
+    padding-left: 0%;
 }
