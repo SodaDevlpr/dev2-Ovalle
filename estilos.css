@@ -275,3 +275,7 @@ html, body{
 .container-fluid{
     padding-left: 0%;
 }
+
+.bg-light{
+    background-color: transparent !important;
+}
